@@ -1,5 +1,9 @@
 import React from "react";
 import { FaLongArrowAltRight } from "react-icons/fa"; //icon
+import hero1 from "../assests/hero__1.webp"
+import hero2 from "../assests/hero__2.webp"
+import hero3 from "../assests/hero__3.webp"
+
 
 export default function Hero() {
   return (
@@ -10,7 +14,7 @@ export default function Hero() {
         <div className="relative xl:col-span-2 xl:row-span-2">
           <img
             className="w-full h-full object-cover rounded-lg"
-            src="src/assets/hero__1.webp"
+            src={hero1}
             alt="hero image"
           />
         </div>
@@ -37,7 +41,7 @@ export default function Hero() {
         <div className="relative">
           <img
             className="w-full h-full object-cover rounded-lg"
-            src="src\assets\hero__2.webp"
+            src={hero2}
             alt="hero image"
           />
           <div className="absolute  max-w-[470px] sm:ml-16 ml-8 top-[50%] -translate-y-[50%] sm:space-y-2">
@@ -59,7 +63,7 @@ export default function Hero() {
         <div className="relative">
           <img
             className="w-full h-full object-cover rounded-lg"
-            src="src\assets\hero__3.webp"
+            src={hero3}
             alt="hero image"
           />
           <div className="absolute max-w-[470px] sm:ml-16 ml-8 top-[50%] -translate-y-[50%] sm:space-y-2">
