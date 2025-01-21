@@ -1,8 +1,8 @@
 import React from "react";
 import { FaLongArrowAltRight } from "react-icons/fa"; //icon
-import hero1 from "../assests/hero__1.webp"
-import hero2 from "../assests/hero__2.webp"
-import hero3 from "../assests/hero__3.webp"
+import hero1 from "../assets/hero__1.webp";
+import hero2 from "../assets/hero__2.webp";
+import hero3 from "../assets/hero__3.webp";
 
 
 export default function Hero() {
